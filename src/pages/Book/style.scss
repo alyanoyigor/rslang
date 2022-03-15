@@ -90,12 +90,17 @@
   border: none;
 }
 .book__word-list {
-  padding: 20px 0px;
+  padding: 0px 0px 20px;
 }
 .page-item.active.full-page .page-link {
   background-color: #4d4d4d;
+  border: #4d4d4d;
 }
 .book__games{
   display: flex;
   flex-wrap: nowrap;
+}
+.book__pages{
+  display: flex;
+  margin: 20px 0px 0px;
 }

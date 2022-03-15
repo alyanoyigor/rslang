@@ -52,11 +52,11 @@ export const BookComponent = {
             ${isAllUsersWord(currentPage, state)}
           </div>  
         </div>
-        <div class="book__word-list">
-          ${getWordList(state, hardWords, hardWordsDelete, currentPage)}
-        </div>
         <div class="book__pages">
           ${getPaginationNav(currentPage, state)}
+        </div>
+        <div class="book__word-list">
+          ${getWordList(state, hardWords, hardWordsDelete, currentPage)}
         </div>
       </div>  
     </div>`,
